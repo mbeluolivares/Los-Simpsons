@@ -1,0 +1,33 @@
+div.padre{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 100%;
+    margin:auto;
+
+  }
+
+.cards{
+    display: flex;
+    border:2px solid #c08f34;
+    color: black;
+    flex-direction: column;
+    padding: auto;
+    width: 200px;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+    margin:10px;
+    
+    
+    
+  }
+
+
+.card img{
+    width: fit-content;
+    height: 160px;
+  }
+
+  
